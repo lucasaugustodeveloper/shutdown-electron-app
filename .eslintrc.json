@@ -16,5 +16,8 @@
     "ecmaVersion": 2018
   },
   "plugins": ["react"],
-  "rules": {}
+  "rules": {
+    "quotes": ["error", "always"],
+    "import/no-unresolved": "off"
+  }
 }
